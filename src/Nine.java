@@ -1,5 +1,8 @@
 public class Nine {
 	public static void main(String[] args) {
+		if(args.length==0) {
+			System.out.println("Please enter the month in numbers");
+		}
 		int chr=Integer.parseInt(args[0]);
 		switch(chr) {
 		case 1:System.out.println("Jan");
